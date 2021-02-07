@@ -1,0 +1,36 @@
+div.addEventBlock {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+}
+
+.form-select {
+    margin-right: 20px;
+}
+
+.form-select,
+.btn,
+.newEventInput input {
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex span,
+.newEventInput span {
+    width: 200px;
+}
+
+.insertEvent {
+    background-color: lightgreen !important;
+}
+
+.deleteButton {
+    float: right;
+}
+
+.deleteButton:hover {
+    cursor: pointer;
+}
