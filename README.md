@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 # Ciklum Calendar Test
 GH Pages link - https://tarasidak.github.io/ciklumCalendarTest/
 
