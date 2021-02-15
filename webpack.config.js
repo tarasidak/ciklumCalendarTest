@@ -8,13 +8,13 @@ module.exports = {
     main: path.resolve(__dirname, './src/index.js'),
   },
   output: {
-    path: path.resolve(__dirname, '../docs'),
+    path: path.resolve(__dirname, './docs'),
     filename: '[name].bundle.js',
   },
   mode: 'development',
   devServer: {
     historyApiFallback: true,
-    contentBase: path.resolve(__dirname, '../docs'),
+    contentBase: path.resolve(__dirname, './docs'),
     open: true,
     compress: true,
     hot: true,
