@@ -7,6 +7,10 @@ div.addEventBlock {
     margin-right: 20px;
 }
 
+.td_item {
+    padding: 0 !important;
+}
+
 .form-select,
 .btn,
 .newEventInput input {
@@ -23,8 +27,9 @@ div.addEventBlock {
     width: 200px;
 }
 
-.insertEvent {
+.personEvent {
     background-color: lightgreen !important;
+    padding: 8px;
 }
 
 .deleteButton {
